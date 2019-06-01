@@ -144,5 +144,80 @@
   <ItemGroup>
     <None Include="Resources\prahova.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ilfov.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ilfov1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\giurgiu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\maramures.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bistrita.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mures.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\brasov.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dambovita.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\teleorman.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arges.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sibiu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\valcea.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\olt.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dolj.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mehedinti.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gorj.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\satu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\salaj.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cluj.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\alba.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bihor.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arad.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hunedoara.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\timis.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\caras.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

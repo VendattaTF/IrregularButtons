@@ -172,4 +172,76 @@
   <data name="vrancea" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\vrancea.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="alba" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\alba.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="arad" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\arad.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="arges" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\arges.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bihor" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bihor.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bistrita" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bistrita.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="brasov" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\brasov.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="caras" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\caras.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cluj" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cluj.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dambovita" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\dambovita.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dolj" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\dolj.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="giurgiu" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\giurgiu.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gorj" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gorj.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hunedoara" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hunedoara.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ilfov" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ilfov.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="maramures" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\maramures.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mehedinti" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mehedinti.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mures" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mures.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="olt" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\olt.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="salaj" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\salaj.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="satu" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\satu.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sibiu" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sibiu.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="teleorman" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\teleorman.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="timis" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\timis.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="valcea" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\valcea.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
 </root>

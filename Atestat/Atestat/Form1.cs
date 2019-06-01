@@ -34,6 +34,32 @@ namespace Atestat
         private Bitmap harghita = new Bitmap(Properties.Resources.harghita);
         private Bitmap covasna = new Bitmap(Properties.Resources.covasna);
         private Bitmap prahova = new Bitmap(Properties.Resources.prahova);
+        private Bitmap ilfov = new Bitmap(Properties.Resources.ilfov);
+        private Bitmap giurgiu = new Bitmap(Properties.Resources.giurgiu);
+        private Bitmap maramures = new Bitmap(Properties.Resources.maramures);
+        private Bitmap bistrita = new Bitmap(Properties.Resources.bistrita);
+        private Bitmap mures = new Bitmap(Properties.Resources.mures);
+        private Bitmap brasov = new Bitmap(Properties.Resources.brasov);
+        private Bitmap dambovita = new Bitmap(Properties.Resources.dambovita);
+        private Bitmap teleorman = new Bitmap(Properties.Resources.teleorman);
+        private Bitmap arges = new Bitmap(Properties.Resources.arges);
+        private Bitmap sibiu = new Bitmap(Properties.Resources.sibiu);
+        private Bitmap valcea = new Bitmap(Properties.Resources.valcea);
+        private Bitmap olt = new Bitmap(Properties.Resources.olt);
+        private Bitmap dolj = new Bitmap(Properties.Resources.dolj);
+        private Bitmap mehedinti = new Bitmap(Properties.Resources.mehedinti);
+        private Bitmap gorj = new Bitmap(Properties.Resources.gorj);
+        private Bitmap satu = new Bitmap(Properties.Resources.satu);
+        private Bitmap salaj = new Bitmap(Properties.Resources.salaj);
+        private Bitmap cluj = new Bitmap(Properties.Resources.cluj);
+        private Bitmap alba = new Bitmap(Properties.Resources.alba);
+        private Bitmap bihor = new Bitmap(Properties.Resources.bihor);
+        private Bitmap arad = new Bitmap(Properties.Resources.arad);
+        private Bitmap hunedoara = new Bitmap(Properties.Resources.hunedoara);
+        private Bitmap timis = new Bitmap(Properties.Resources.timis);
+        private Bitmap caras = new Bitmap(Properties.Resources.caras);
+        
+
 
 
 
@@ -60,6 +86,30 @@ namespace Atestat
             BitmapRegion.CreateControlRegion(pictureBox15, harghita);
             BitmapRegion.CreateControlRegion(pictureBox16, covasna);
             BitmapRegion.CreateControlRegion(pictureBox17, prahova);
+            BitmapRegion.CreateControlRegion(pictureBox18, ilfov);
+            BitmapRegion.CreateControlRegion(pictureBox19, giurgiu);
+            BitmapRegion.CreateControlRegion(pictureBox20, maramures);
+            BitmapRegion.CreateControlRegion(pictureBox21, bistrita);
+            BitmapRegion.CreateControlRegion(pictureBox22, mures);
+            BitmapRegion.CreateControlRegion(pictureBox23, brasov);
+            BitmapRegion.CreateControlRegion(pictureBox24, dambovita);
+            BitmapRegion.CreateControlRegion(pictureBox25, teleorman);
+            BitmapRegion.CreateControlRegion(pictureBox26, arges);
+            BitmapRegion.CreateControlRegion(pictureBox27, sibiu);
+            BitmapRegion.CreateControlRegion(pictureBox28, valcea);
+            BitmapRegion.CreateControlRegion(pictureBox29, olt);
+            BitmapRegion.CreateControlRegion(pictureBox30, dolj);
+            BitmapRegion.CreateControlRegion(pictureBox31, mehedinti);
+            BitmapRegion.CreateControlRegion(pictureBox32, gorj);
+            BitmapRegion.CreateControlRegion(pictureBox33, satu);
+            BitmapRegion.CreateControlRegion(pictureBox34, salaj);
+            BitmapRegion.CreateControlRegion(pictureBox35, cluj);
+            BitmapRegion.CreateControlRegion(pictureBox36, alba);
+            BitmapRegion.CreateControlRegion(pictureBox37, bihor);
+            BitmapRegion.CreateControlRegion(pictureBox38, arad);
+            BitmapRegion.CreateControlRegion(pictureBox39, hunedoara);
+            BitmapRegion.CreateControlRegion(pictureBox40, timis);
+            BitmapRegion.CreateControlRegion(pictureBox41, caras);
 
             pictureBox1.Image = null;
             pictureBox2.Image = null;
@@ -78,6 +128,31 @@ namespace Atestat
             pictureBox15.Image = null;
             pictureBox16.Image = null;          
             pictureBox17.Image = null;          
+            pictureBox18.Image = null;          
+            pictureBox19.Image = null;          
+            pictureBox20.Image = null;          
+            pictureBox21.Image = null;          
+            pictureBox22.Image = null;          
+            pictureBox23.Image = null;          
+            pictureBox24.Image = null;          
+            pictureBox25.Image = null;          
+            pictureBox26.Image = null;          
+            pictureBox27.Image = null;          
+            pictureBox28.Image = null;          
+            pictureBox29.Image = null;          
+            pictureBox30.Image = null;          
+            pictureBox31.Image = null;          
+            pictureBox32.Image = null;          
+            pictureBox33.Image = null;          
+            pictureBox34.Image = null;          
+            pictureBox35.Image = null;          
+            pictureBox36.Image = null;          
+            pictureBox37.Image = null;          
+            pictureBox38.Image = null;          
+            pictureBox39.Image = null;          
+            pictureBox40.Image = null;          
+            pictureBox41.Image = null;          
+
 
 
         }
@@ -140,6 +215,8 @@ namespace Atestat
                 this.DefWndProc(ref msg);
             }
         }
+
+        
     }
 
 }
