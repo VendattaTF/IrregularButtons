@@ -99,5 +99,50 @@
   <ItemGroup>
     <None Include="Resources\iasi.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tulcea.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\braila.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\calarasi.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\constanta.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ialomita.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\botosani.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\suceava1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\neamt.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bacau.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vrancea.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\buzau.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\harghita.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\covasn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\covasna.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\prahova.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
