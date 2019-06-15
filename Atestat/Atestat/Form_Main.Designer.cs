@@ -1,6 +1,6 @@
 ﻿namespace Atestat
 {
-    partial class Form1
+    partial class Form_Main
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form_Main));
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
@@ -123,7 +123,7 @@
             this.pictureBox1.Size = new System.Drawing.Size(77, 65);
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
-            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox_Click);
             this.pictureBox1.MouseEnter += new System.EventHandler(this.pictureBox_MouseEnter);
             this.pictureBox1.MouseLeave += new System.EventHandler(this.pictureBox_MouseLeave);
             // 
@@ -136,6 +136,7 @@
             this.pictureBox2.Size = new System.Drawing.Size(87, 84);
             this.pictureBox2.TabIndex = 1;
             this.pictureBox2.TabStop = false;
+            this.pictureBox2.Click += new System.EventHandler(this.pictureBox_Click);
             this.pictureBox2.MouseEnter += new System.EventHandler(this.pictureBox_MouseEnter);
             this.pictureBox2.MouseLeave += new System.EventHandler(this.pictureBox_MouseLeave);
             // 
@@ -148,6 +149,7 @@
             this.pictureBox3.Size = new System.Drawing.Size(129, 67);
             this.pictureBox3.TabIndex = 2;
             this.pictureBox3.TabStop = false;
+            this.pictureBox3.Click += new System.EventHandler(this.pictureBox_Click);
             this.pictureBox3.MouseEnter += new System.EventHandler(this.pictureBox_MouseEnter);
             this.pictureBox3.MouseLeave += new System.EventHandler(this.pictureBox_MouseLeave);
             // 
@@ -173,6 +175,7 @@
             this.pictureBox4.Size = new System.Drawing.Size(113, 90);
             this.pictureBox4.TabIndex = 4;
             this.pictureBox4.TabStop = false;
+            this.pictureBox4.Click += new System.EventHandler(this.pictureBox_Click);
             this.pictureBox4.MouseEnter += new System.EventHandler(this.pictureBox_MouseEnter);
             this.pictureBox4.MouseLeave += new System.EventHandler(this.pictureBox_MouseLeave);
             // 
@@ -185,6 +188,7 @@
             this.pictureBox5.Size = new System.Drawing.Size(97, 106);
             this.pictureBox5.TabIndex = 5;
             this.pictureBox5.TabStop = false;
+            this.pictureBox5.Click += new System.EventHandler(this.pictureBox_Click);
             this.pictureBox5.MouseEnter += new System.EventHandler(this.pictureBox_MouseEnter);
             this.pictureBox5.MouseLeave += new System.EventHandler(this.pictureBox_MouseLeave);
             // 
@@ -197,6 +201,7 @@
             this.pictureBox6.Size = new System.Drawing.Size(123, 101);
             this.pictureBox6.TabIndex = 6;
             this.pictureBox6.TabStop = false;
+            this.pictureBox6.Click += new System.EventHandler(this.pictureBox_Click);
             this.pictureBox6.MouseEnter += new System.EventHandler(this.pictureBox_MouseEnter);
             this.pictureBox6.MouseLeave += new System.EventHandler(this.pictureBox_MouseLeave);
             // 
@@ -209,6 +214,7 @@
             this.pictureBox7.Size = new System.Drawing.Size(111, 39);
             this.pictureBox7.TabIndex = 7;
             this.pictureBox7.TabStop = false;
+            this.pictureBox7.Click += new System.EventHandler(this.pictureBox_Click);
             this.pictureBox7.MouseEnter += new System.EventHandler(this.pictureBox_MouseEnter);
             this.pictureBox7.MouseLeave += new System.EventHandler(this.pictureBox_MouseLeave);
             // 
@@ -221,6 +227,7 @@
             this.pictureBox8.Size = new System.Drawing.Size(124, 41);
             this.pictureBox8.TabIndex = 8;
             this.pictureBox8.TabStop = false;
+            this.pictureBox8.Click += new System.EventHandler(this.pictureBox_Click);
             this.pictureBox8.MouseEnter += new System.EventHandler(this.pictureBox_MouseEnter);
             this.pictureBox8.MouseLeave += new System.EventHandler(this.pictureBox_MouseLeave);
             // 
@@ -228,22 +235,25 @@
             // 
             this.pictureBox9.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox9.Image = global::Atestat.Properties.Resources.botosani;
-            this.pictureBox9.Location = new System.Drawing.Point(442, 6);
+            this.pictureBox9.Location = new System.Drawing.Point(441, 7);
             this.pictureBox9.Name = "pictureBox9";
             this.pictureBox9.Size = new System.Drawing.Size(137, 73);
             this.pictureBox9.TabIndex = 9;
             this.pictureBox9.TabStop = false;
+            this.pictureBox9.Click += new System.EventHandler(this.pictureBox_Click);
             this.pictureBox9.MouseEnter += new System.EventHandler(this.pictureBox_MouseEnter);
             this.pictureBox9.MouseLeave += new System.EventHandler(this.pictureBox_MouseLeave);
             // 
             // pictureBox10
             // 
             this.pictureBox10.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox10.Location = new System.Drawing.Point(365, 39);
+            this.pictureBox10.Image = global::Atestat.Properties.Resources.suceava;
+            this.pictureBox10.Location = new System.Drawing.Point(362, 37);
             this.pictureBox10.Name = "pictureBox10";
             this.pictureBox10.Size = new System.Drawing.Size(117, 61);
             this.pictureBox10.TabIndex = 10;
             this.pictureBox10.TabStop = false;
+            this.pictureBox10.Click += new System.EventHandler(this.pictureBox_Click);
             this.pictureBox10.MouseEnter += new System.EventHandler(this.pictureBox_MouseEnter);
             this.pictureBox10.MouseLeave += new System.EventHandler(this.pictureBox_MouseLeave);
             // 
@@ -251,11 +261,12 @@
             // 
             this.pictureBox11.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox11.Image = global::Atestat.Properties.Resources.neamt;
-            this.pictureBox11.Location = new System.Drawing.Point(415, 106);
+            this.pictureBox11.Location = new System.Drawing.Point(414, 108);
             this.pictureBox11.Name = "pictureBox11";
             this.pictureBox11.Size = new System.Drawing.Size(93, 50);
             this.pictureBox11.TabIndex = 11;
             this.pictureBox11.TabStop = false;
+            this.pictureBox11.Click += new System.EventHandler(this.pictureBox_Click);
             this.pictureBox11.MouseEnter += new System.EventHandler(this.pictureBox_MouseEnter);
             this.pictureBox11.MouseLeave += new System.EventHandler(this.pictureBox_MouseLeave);
             // 
@@ -263,11 +274,12 @@
             // 
             this.pictureBox12.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox12.Image = global::Atestat.Properties.Resources.bacau;
-            this.pictureBox12.Location = new System.Drawing.Point(442, 162);
+            this.pictureBox12.Location = new System.Drawing.Point(439, 163);
             this.pictureBox12.Name = "pictureBox12";
             this.pictureBox12.Size = new System.Drawing.Size(106, 60);
             this.pictureBox12.TabIndex = 12;
             this.pictureBox12.TabStop = false;
+            this.pictureBox12.Click += new System.EventHandler(this.pictureBox_Click);
             this.pictureBox12.MouseEnter += new System.EventHandler(this.pictureBox_MouseEnter);
             this.pictureBox12.MouseLeave += new System.EventHandler(this.pictureBox_MouseLeave);
             // 
@@ -280,6 +292,7 @@
             this.pictureBox13.Size = new System.Drawing.Size(80, 48);
             this.pictureBox13.TabIndex = 13;
             this.pictureBox13.TabStop = false;
+            this.pictureBox13.Click += new System.EventHandler(this.pictureBox_Click);
             this.pictureBox13.MouseEnter += new System.EventHandler(this.pictureBox_MouseEnter);
             this.pictureBox13.MouseLeave += new System.EventHandler(this.pictureBox_MouseLeave);
             // 
@@ -292,6 +305,7 @@
             this.pictureBox14.Size = new System.Drawing.Size(91, 65);
             this.pictureBox14.TabIndex = 14;
             this.pictureBox14.TabStop = false;
+            this.pictureBox14.Click += new System.EventHandler(this.pictureBox_Click);
             this.pictureBox14.MouseEnter += new System.EventHandler(this.pictureBox_MouseEnter);
             this.pictureBox14.MouseLeave += new System.EventHandler(this.pictureBox_MouseLeave);
             // 
@@ -304,6 +318,7 @@
             this.pictureBox15.Size = new System.Drawing.Size(78, 48);
             this.pictureBox15.TabIndex = 15;
             this.pictureBox15.TabStop = false;
+            this.pictureBox15.Click += new System.EventHandler(this.pictureBox_Click);
             this.pictureBox15.MouseEnter += new System.EventHandler(this.pictureBox_MouseEnter);
             this.pictureBox15.MouseLeave += new System.EventHandler(this.pictureBox_MouseLeave);
             // 
@@ -316,6 +331,7 @@
             this.pictureBox16.Size = new System.Drawing.Size(63, 40);
             this.pictureBox16.TabIndex = 16;
             this.pictureBox16.TabStop = false;
+            this.pictureBox16.Click += new System.EventHandler(this.pictureBox_Click);
             this.pictureBox16.MouseEnter += new System.EventHandler(this.pictureBox_MouseEnter);
             this.pictureBox16.MouseLeave += new System.EventHandler(this.pictureBox_MouseLeave);
             // 
@@ -328,6 +344,7 @@
             this.pictureBox17.Size = new System.Drawing.Size(43, 37);
             this.pictureBox17.TabIndex = 17;
             this.pictureBox17.TabStop = false;
+            this.pictureBox17.Click += new System.EventHandler(this.pictureBox_Click);
             this.pictureBox17.MouseEnter += new System.EventHandler(this.pictureBox_MouseEnter);
             this.pictureBox17.MouseLeave += new System.EventHandler(this.pictureBox_MouseLeave);
             // 
@@ -340,6 +357,7 @@
             this.pictureBox18.Size = new System.Drawing.Size(48, 35);
             this.pictureBox18.TabIndex = 18;
             this.pictureBox18.TabStop = false;
+            this.pictureBox18.Click += new System.EventHandler(this.pictureBox_Click);
             this.pictureBox18.MouseEnter += new System.EventHandler(this.pictureBox_MouseEnter);
             this.pictureBox18.MouseLeave += new System.EventHandler(this.pictureBox_MouseLeave);
             // 
@@ -352,6 +370,7 @@
             this.pictureBox19.Size = new System.Drawing.Size(60, 69);
             this.pictureBox19.TabIndex = 19;
             this.pictureBox19.TabStop = false;
+            this.pictureBox19.Click += new System.EventHandler(this.pictureBox_Click);
             this.pictureBox19.MouseEnter += new System.EventHandler(this.pictureBox_MouseEnter);
             this.pictureBox19.MouseLeave += new System.EventHandler(this.pictureBox_MouseLeave);
             // 
@@ -364,6 +383,7 @@
             this.pictureBox20.Size = new System.Drawing.Size(117, 61);
             this.pictureBox20.TabIndex = 20;
             this.pictureBox20.TabStop = false;
+            this.pictureBox20.Click += new System.EventHandler(this.pictureBox_Click);
             this.pictureBox20.MouseEnter += new System.EventHandler(this.pictureBox_MouseEnter);
             this.pictureBox20.MouseLeave += new System.EventHandler(this.pictureBox_MouseLeave);
             // 
@@ -376,6 +396,7 @@
             this.pictureBox21.Size = new System.Drawing.Size(117, 61);
             this.pictureBox21.TabIndex = 21;
             this.pictureBox21.TabStop = false;
+            this.pictureBox21.Click += new System.EventHandler(this.pictureBox_Click);
             this.pictureBox21.MouseEnter += new System.EventHandler(this.pictureBox_MouseEnter);
             this.pictureBox21.MouseLeave += new System.EventHandler(this.pictureBox_MouseLeave);
             // 
@@ -388,6 +409,7 @@
             this.pictureBox22.Size = new System.Drawing.Size(66, 39);
             this.pictureBox22.TabIndex = 22;
             this.pictureBox22.TabStop = false;
+            this.pictureBox22.Click += new System.EventHandler(this.pictureBox_Click);
             this.pictureBox22.MouseEnter += new System.EventHandler(this.pictureBox_MouseEnter);
             this.pictureBox22.MouseLeave += new System.EventHandler(this.pictureBox_MouseLeave);
             // 
@@ -400,6 +422,7 @@
             this.pictureBox23.Size = new System.Drawing.Size(78, 49);
             this.pictureBox23.TabIndex = 23;
             this.pictureBox23.TabStop = false;
+            this.pictureBox23.Click += new System.EventHandler(this.pictureBox_Click);
             this.pictureBox23.MouseEnter += new System.EventHandler(this.pictureBox_MouseEnter);
             this.pictureBox23.MouseLeave += new System.EventHandler(this.pictureBox_MouseLeave);
             // 
@@ -412,6 +435,7 @@
             this.pictureBox24.Size = new System.Drawing.Size(70, 64);
             this.pictureBox24.TabIndex = 24;
             this.pictureBox24.TabStop = false;
+            this.pictureBox24.Click += new System.EventHandler(this.pictureBox_Click);
             this.pictureBox24.MouseEnter += new System.EventHandler(this.pictureBox_MouseEnter);
             this.pictureBox24.MouseLeave += new System.EventHandler(this.pictureBox_MouseLeave);
             // 
@@ -424,6 +448,7 @@
             this.pictureBox25.Size = new System.Drawing.Size(72, 78);
             this.pictureBox25.TabIndex = 25;
             this.pictureBox25.TabStop = false;
+            this.pictureBox25.Click += new System.EventHandler(this.pictureBox_Click);
             this.pictureBox25.MouseEnter += new System.EventHandler(this.pictureBox_MouseEnter);
             this.pictureBox25.MouseLeave += new System.EventHandler(this.pictureBox_MouseLeave);
             // 
@@ -436,6 +461,7 @@
             this.pictureBox26.Size = new System.Drawing.Size(53, 64);
             this.pictureBox26.TabIndex = 26;
             this.pictureBox26.TabStop = false;
+            this.pictureBox26.Click += new System.EventHandler(this.pictureBox_Click);
             this.pictureBox26.MouseEnter += new System.EventHandler(this.pictureBox_MouseEnter);
             this.pictureBox26.MouseLeave += new System.EventHandler(this.pictureBox_MouseLeave);
             // 
@@ -448,6 +474,7 @@
             this.pictureBox27.Size = new System.Drawing.Size(74, 44);
             this.pictureBox27.TabIndex = 27;
             this.pictureBox27.TabStop = false;
+            this.pictureBox27.Click += new System.EventHandler(this.pictureBox_Click);
             this.pictureBox27.MouseEnter += new System.EventHandler(this.pictureBox_MouseEnter);
             this.pictureBox27.MouseLeave += new System.EventHandler(this.pictureBox_MouseLeave);
             // 
@@ -460,6 +487,7 @@
             this.pictureBox28.Size = new System.Drawing.Size(94, 50);
             this.pictureBox28.TabIndex = 28;
             this.pictureBox28.TabStop = false;
+            this.pictureBox28.Click += new System.EventHandler(this.pictureBox_Click);
             this.pictureBox28.MouseEnter += new System.EventHandler(this.pictureBox_MouseEnter);
             this.pictureBox28.MouseLeave += new System.EventHandler(this.pictureBox_MouseLeave);
             // 
@@ -472,6 +500,7 @@
             this.pictureBox29.Size = new System.Drawing.Size(72, 78);
             this.pictureBox29.TabIndex = 29;
             this.pictureBox29.TabStop = false;
+            this.pictureBox29.Click += new System.EventHandler(this.pictureBox_Click);
             this.pictureBox29.MouseEnter += new System.EventHandler(this.pictureBox_MouseEnter);
             this.pictureBox29.MouseLeave += new System.EventHandler(this.pictureBox_MouseLeave);
             // 
@@ -484,6 +513,7 @@
             this.pictureBox30.Size = new System.Drawing.Size(91, 55);
             this.pictureBox30.TabIndex = 30;
             this.pictureBox30.TabStop = false;
+            this.pictureBox30.Click += new System.EventHandler(this.pictureBox_Click);
             this.pictureBox30.MouseEnter += new System.EventHandler(this.pictureBox_MouseEnter);
             this.pictureBox30.MouseLeave += new System.EventHandler(this.pictureBox_MouseLeave);
             // 
@@ -496,6 +526,7 @@
             this.pictureBox31.Size = new System.Drawing.Size(70, 74);
             this.pictureBox31.TabIndex = 31;
             this.pictureBox31.TabStop = false;
+            this.pictureBox31.Click += new System.EventHandler(this.pictureBox_Click);
             this.pictureBox31.MouseEnter += new System.EventHandler(this.pictureBox_MouseEnter);
             this.pictureBox31.MouseLeave += new System.EventHandler(this.pictureBox_MouseLeave);
             // 
@@ -508,6 +539,7 @@
             this.pictureBox32.Size = new System.Drawing.Size(90, 58);
             this.pictureBox32.TabIndex = 32;
             this.pictureBox32.TabStop = false;
+            this.pictureBox32.Click += new System.EventHandler(this.pictureBox_Click);
             this.pictureBox32.MouseEnter += new System.EventHandler(this.pictureBox_MouseEnter);
             this.pictureBox32.MouseLeave += new System.EventHandler(this.pictureBox_MouseLeave);
             // 
@@ -520,6 +552,7 @@
             this.pictureBox33.Size = new System.Drawing.Size(117, 61);
             this.pictureBox33.TabIndex = 33;
             this.pictureBox33.TabStop = false;
+            this.pictureBox33.Click += new System.EventHandler(this.pictureBox_Click);
             this.pictureBox33.MouseEnter += new System.EventHandler(this.pictureBox_MouseEnter);
             this.pictureBox33.MouseLeave += new System.EventHandler(this.pictureBox_MouseLeave);
             // 
@@ -532,6 +565,7 @@
             this.pictureBox34.Size = new System.Drawing.Size(106, 47);
             this.pictureBox34.TabIndex = 34;
             this.pictureBox34.TabStop = false;
+            this.pictureBox34.Click += new System.EventHandler(this.pictureBox_Click);
             this.pictureBox34.MouseEnter += new System.EventHandler(this.pictureBox_MouseEnter);
             this.pictureBox34.MouseLeave += new System.EventHandler(this.pictureBox_MouseLeave);
             // 
@@ -544,6 +578,7 @@
             this.pictureBox35.Size = new System.Drawing.Size(97, 76);
             this.pictureBox35.TabIndex = 35;
             this.pictureBox35.TabStop = false;
+            this.pictureBox35.Click += new System.EventHandler(this.pictureBox_Click);
             this.pictureBox35.MouseEnter += new System.EventHandler(this.pictureBox_MouseEnter);
             this.pictureBox35.MouseLeave += new System.EventHandler(this.pictureBox_MouseLeave);
             // 
@@ -556,6 +591,7 @@
             this.pictureBox36.Size = new System.Drawing.Size(99, 60);
             this.pictureBox36.TabIndex = 36;
             this.pictureBox36.TabStop = false;
+            this.pictureBox36.Click += new System.EventHandler(this.pictureBox_Click);
             this.pictureBox36.MouseEnter += new System.EventHandler(this.pictureBox_MouseEnter);
             this.pictureBox36.MouseLeave += new System.EventHandler(this.pictureBox_MouseLeave);
             // 
@@ -568,6 +604,7 @@
             this.pictureBox37.Size = new System.Drawing.Size(73, 95);
             this.pictureBox37.TabIndex = 37;
             this.pictureBox37.TabStop = false;
+            this.pictureBox37.Click += new System.EventHandler(this.pictureBox_Click);
             this.pictureBox37.MouseEnter += new System.EventHandler(this.pictureBox_MouseEnter);
             this.pictureBox37.MouseLeave += new System.EventHandler(this.pictureBox_MouseLeave);
             // 
@@ -580,6 +617,7 @@
             this.pictureBox38.Size = new System.Drawing.Size(117, 86);
             this.pictureBox38.TabIndex = 38;
             this.pictureBox38.TabStop = false;
+            this.pictureBox38.Click += new System.EventHandler(this.pictureBox_Click);
             this.pictureBox38.MouseEnter += new System.EventHandler(this.pictureBox_MouseEnter);
             this.pictureBox38.MouseLeave += new System.EventHandler(this.pictureBox_MouseLeave);
             // 
@@ -592,6 +630,7 @@
             this.pictureBox39.Size = new System.Drawing.Size(55, 87);
             this.pictureBox39.TabIndex = 39;
             this.pictureBox39.TabStop = false;
+            this.pictureBox39.Click += new System.EventHandler(this.pictureBox_Click);
             this.pictureBox39.MouseEnter += new System.EventHandler(this.pictureBox_MouseEnter);
             this.pictureBox39.MouseLeave += new System.EventHandler(this.pictureBox_MouseLeave);
             // 
@@ -604,6 +643,7 @@
             this.pictureBox40.Size = new System.Drawing.Size(81, 53);
             this.pictureBox40.TabIndex = 40;
             this.pictureBox40.TabStop = false;
+            this.pictureBox40.Click += new System.EventHandler(this.pictureBox_Click);
             this.pictureBox40.MouseEnter += new System.EventHandler(this.pictureBox_MouseEnter);
             this.pictureBox40.MouseLeave += new System.EventHandler(this.pictureBox_MouseLeave);
             // 
@@ -616,16 +656,19 @@
             this.pictureBox41.Size = new System.Drawing.Size(45, 92);
             this.pictureBox41.TabIndex = 41;
             this.pictureBox41.TabStop = false;
+            this.pictureBox41.Click += new System.EventHandler(this.pictureBox_Click);
             this.pictureBox41.MouseEnter += new System.EventHandler(this.pictureBox_MouseEnter);
             this.pictureBox41.MouseLeave += new System.EventHandler(this.pictureBox_MouseLeave);
             // 
-            // Form1
+            // Form_Main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(747, 529);
+            this.Controls.Add(this.pictureBox31);
+            this.Controls.Add(this.pictureBox6);
             this.Controls.Add(this.pictureBox41);
             this.Controls.Add(this.pictureBox40);
             this.Controls.Add(this.pictureBox39);
@@ -636,7 +679,6 @@
             this.Controls.Add(this.pictureBox34);
             this.Controls.Add(this.pictureBox33);
             this.Controls.Add(this.pictureBox32);
-            this.Controls.Add(this.pictureBox31);
             this.Controls.Add(this.pictureBox30);
             this.Controls.Add(this.pictureBox29);
             this.Controls.Add(this.pictureBox28);
@@ -661,7 +703,6 @@
             this.Controls.Add(this.pictureBox9);
             this.Controls.Add(this.pictureBox8);
             this.Controls.Add(this.pictureBox7);
-            this.Controls.Add(this.pictureBox6);
             this.Controls.Add(this.pictureBox5);
             this.Controls.Add(this.pictureBox4);
             this.Controls.Add(this.button1);
@@ -669,9 +710,10 @@
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pictureBox1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "Form1";
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Name = "Form_Main";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Form1";
+            this.Text = "România";
             this.TransparencyKey = System.Drawing.SystemColors.ActiveCaption;
             this.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Form1_MouseDown);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

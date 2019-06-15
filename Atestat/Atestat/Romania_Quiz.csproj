@@ -32,6 +32,9 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>romania_1q5_icon.ico</ApplicationIcon>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -47,16 +50,16 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BitmapRegion.cs" />
-    <Compile Include="Form1.cs">
+    <Compile Include="Form_Main.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="Form_Main.Designer.cs">
+      <DependentUpon>Form_Main.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <EmbeddedResource Include="Form_Main.resx">
+      <DependentUpon>Form_Main.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -218,6 +221,15 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\caras.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconfinder_black_pawn_754825.png" />
+    <None Include="Resources\iconfinder_fortress_17914.png" />
+    <None Include="Resources\iconfinder_fortress_17914.jpg" />
+    <None Include="Resources\pawn_pink.png" />
+    <None Include="Resources\pawn_red.png" />
+    <None Include="Resources\pawn_green.png" />
+    <Content Include="romania_1q5_icon.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

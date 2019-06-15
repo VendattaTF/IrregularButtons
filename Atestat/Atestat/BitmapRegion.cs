@@ -18,7 +18,7 @@ namespace Atestat
 		/// </summary>
 		/// <param name="control">The Control object to apply the region to</param>
 		/// <param name="bitmap">The Bitmap object to create the region from</param>
-		public static void CreateControlRegion(Control control, Bitmap bitmap)
+		public static void CreateControlRegion(Control control, Bitmap bitmap, string name)
 		{
 			// Return if control and bitmap are null
 			if(control == null || bitmap == null)
@@ -72,6 +72,11 @@ namespace Atestat
 
 				// Apply new region
 				button.Region = new Region(graphicsPath);
+
+                //
+                button.Image = null;
+                button.Tag = name;
+                
 			}
 		}
 
